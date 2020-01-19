@@ -29,5 +29,10 @@ var animals = [
             }
         ]
     }
-
 ]
+
+for(var i = 0; i<animals.length; i++) {
+    for(var j in animals[i]) {
+        console.log(animals[i][j]);
+    }
+}
