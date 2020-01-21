@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//Funkcja o nazwie "jeden"
 function jeden() {
 
-    //Twoj komentarz ...
+    //deklaracja zmiennej z widocznością do scope ponizej
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Funkcja o nazwie "dwa"
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wyswietlenie zmienna1
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //deklaracja zniemmej z widocznoscia do scope dwa i glebiej
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywolanie funkcji "dwa"
     dwa();
 
-    //Twoj komentarz ...
+    //Brak wartosci poniewaz zmienna2 jest poza widocznoscia scope funkcji jeden
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//Wywolanie funkcji
 jeden()

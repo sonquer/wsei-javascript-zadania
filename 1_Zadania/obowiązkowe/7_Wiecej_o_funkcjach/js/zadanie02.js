@@ -10,5 +10,28 @@ callOtherFunction(function (a, b) {
     console.log("Pierwsza liczba:", a);
     console.log("Druga liczba", b)
     console.log("Wynik", a + b)
-})
+});
 
+callOtherFunction((a, b) => {
+    console.log("Pierwsza liczba:", a);
+    console.log("Druga liczba", b)
+    console.log("Wynik", a - b)
+});
+
+callOtherFunction((a, b) => {
+    console.log("Pierwsza liczba:", a);
+    console.log("Druga liczba", b)
+    console.log("Wynik", a / b)
+});
+
+callOtherFunction((a, b) => {
+    console.log("Pierwsza liczba:", a);
+    console.log("Druga liczba", b)
+    console.log("Wynik", a * b)
+});
+
+callOtherFunction((a, b) => {
+    console.log("Pierwsza liczba:", a);
+    console.log("Druga liczba", b)
+    console.log("Wynik", a ^ b)
+});
